@@ -39,4 +39,3 @@ type Add = (num1: number, num2: number) => number;
 
 const add: Add = (num1, num2) => num1 + num2;
 console.log("add", "2.9.ts", 42);
-console.log("ami", "2.9.ts", 42);
