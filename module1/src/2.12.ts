@@ -26,6 +26,21 @@
   };
   getSpeedInMeterPerSecond(null);
 
+  function processInput(input: unknown) {
+    // Type checking is mandatory before using `input`
+    if (typeof input === "string") {
+      console.log(`The string length is ${input.length}`);
+    } else if (typeof input === "number") {
+      console.log(`The square is ${input * input}`);
+    } else {
+      console.log("Unsupported type");
+    }
+  }
+
+  processInput("Hello"); // The string length is 5
+  processInput(10); // The square is 100
+  processInput(true); // Unsupported type
+
   //never
 
   const throwError = (msg: string): never => {
