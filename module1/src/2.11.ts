@@ -42,5 +42,8 @@
 
   const permanentAddress =
     user?.address?.permanentAddress ?? "No Permanent Address";
-  console.log({ permanentAddress });
+  console.log(
+    { permanentAddress },
+    "\x1b[1m\x1b[31mThis is bold red text!\x1b[0m",
+  );
 }

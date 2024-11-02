@@ -1,5 +1,5 @@
 {
-  // nullable types / unknown types
+  //t: nullable types / unknown types
 
   const searchName = (value: string | null) => {
     if (value) {
@@ -10,8 +10,8 @@
   };
   searchName(null);
 
-  // unknown  typeof
-
+  //t: unknown  typeof
+  //t: The unknown type in TypeScript enforces a rule that you must check the type of a variable before using it. This means that any variable declared as unknown cannot be directly accessed or manipulated without first confirming its type.
   const getSpeedInMeterPerSecond = (value: unknown) => {
     if (typeof value === "number") {
       const convertedSpeed = (value * 1000) / 3600;

@@ -38,5 +38,3 @@ const fullstackDeveloper: FullstackDeveloper = {
   designation1: "Frontend Developer",
   designation2: "Backend Developer",
 };
-
-console.log(fullstackDeveloper, "2.10.ts", 38);
