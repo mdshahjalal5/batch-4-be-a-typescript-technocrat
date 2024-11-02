@@ -1,14 +1,14 @@
 {
   //
 
-  // type assertion
+  //t: type assertion
   let anything: any;
 
   anything = "Next Level Web Development";
 
   anything = 222;
 
-  // (anything as number).
+  //t:(anything as number).
 
   const kgToGm = (value: string | number): string | number | undefined => {
     if (typeof value === "string") {
