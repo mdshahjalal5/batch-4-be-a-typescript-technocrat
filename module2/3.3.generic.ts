@@ -32,7 +32,7 @@
 
   add(30, 20);
 
-  //generic tuple
+  //t:generic tuple
 
   type GenericTuple<X, Y> = [X, Y];
 
