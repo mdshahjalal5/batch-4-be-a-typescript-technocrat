@@ -1,5 +1,5 @@
 {
-  // interface
+  //t: interface
 
   type User1 = {
     name: string;
