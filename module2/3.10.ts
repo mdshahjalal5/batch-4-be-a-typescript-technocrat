@@ -1,20 +1,20 @@
 {
-  // mapped types
-
+  //t: mapped types
+  //h:02/11/2024  02:05 PM Sat GMT+6  Sharifpur, Gazipur, Dhaka
   const arrOfNumbers: number[] = [1, 4, 5];
 
   // const arrOfStrings : string[] = ['1','4','5']
   const arrOfStrings: string[] = arrOfNumbers.map((number) =>
-    number.toString()
+    number.toString(),
   );
   console.log(arrOfStrings);
 
-  type AreaNumber = {
+  type AreaNumberRename = {
     height: number;
     width: number;
   };
 
-  type Height = AreaNumber["height"]; // look up type
+  type Height = AreaNumberRename["height"]; // look up type
   // type AreaString = {
   //   height: string;
   //   width: string

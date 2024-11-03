@@ -10,6 +10,7 @@
   }
 
   const isAdult = age >= 18 ? "adult" : "not adult";
+  console.log(isAdult, "[1;31misAdult in 2.11.ts at line 13[0m");
   console.log({ isAdult });
 
   //nullish coalescing operator
@@ -42,8 +43,4 @@
 
   const permanentAddress =
     user?.address?.permanentAddress ?? "No Permanent Address";
-  console.log(
-    { permanentAddress },
-    "\x1b[1m\x1b[31mThis is bold red text!\x1b[0m",
-  );
 }

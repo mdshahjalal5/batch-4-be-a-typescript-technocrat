@@ -1,5 +1,5 @@
 {
-  // generic constraint with keyof operator
+  //t: generic constraint with keyof operator
   type Vehicle = {
     bike: string;
     car: string;

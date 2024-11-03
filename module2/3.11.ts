@@ -1,5 +1,5 @@
 {
-  //utility types
+  //t:utility types
   // Pick
   type Person = {
     name: string;
