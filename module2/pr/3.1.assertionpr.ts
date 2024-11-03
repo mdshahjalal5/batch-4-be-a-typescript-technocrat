@@ -1,4 +1,6 @@
 {
+  //
+  //t:type assertions let you explicitly tell the compiler the specific type of a value. They're particularly useful in cases where TypeScript can't automatically infer the correct type or when you need to override its inference/;
   let value: any = "Assalamu alaikum, Ami shahjalal, ";
   let length3 = (value as string).length;
   // console.log(length3, "[1;31mlength3 in assertionpr.ts at line 4[0m");
