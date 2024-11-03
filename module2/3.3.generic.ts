@@ -1,6 +1,6 @@
 {
   // generic type
-
+  //t:Generics in TypeScript allow you to create flexible, reusable components that can work with various data types. This is particularly useful for creating data structures or functions that can handle different types without rewriting code for each type.
   type GenericArray<T> = Array<T>;
 
   // const rollNumbers: number[] = [3, 6, 8];
