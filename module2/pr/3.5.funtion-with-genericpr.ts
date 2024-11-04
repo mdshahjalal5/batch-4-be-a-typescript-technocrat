@@ -15,7 +15,24 @@ console.log(
 );
 
 const item2 = createCartItem("phone", "20,000");
+const addLastUpadted = <T>(profile: T) => {
+  const lastUpdate = new Date();
+  return {
+    ...profile,
+    lastUpdate,
+  };
+};
+interface UserProfile {
+  username: string;
+  email: string;
+}
+const userProfile = {
+  username: "js_dev",
+  email3: "dev@.com",
+  email: "dev@.com",
+};
+const updatedProfile = addLastUpadted<UserProfile>(userProfile);
 console.log(
-  item2,
-  "[1;31mitem2 in 3.5.funtion-with-genericpr.ts at line 18[0m",
+  updatedProfile,
+  "[1;31mupdatedProfile in 3.5.funtion-with-genericpr.ts at line 30[0m",
 );
