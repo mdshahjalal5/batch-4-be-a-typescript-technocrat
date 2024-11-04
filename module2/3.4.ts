@@ -1,7 +1,7 @@
 {
   // intercae - generic
 
-  interface Developer<T, X = null> {
+  interface Developer<T, X> {
     name: string;
     computer: {
       brand: string;
@@ -32,6 +32,7 @@
     },
   };
 
+  console.log(poorDeveloper, "[1;31mpoorDeveloper in 3.4.ts at line 22[0m");
   interface AppleWatch {
     brand: string;
     model: string;

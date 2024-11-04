@@ -23,6 +23,7 @@
 
   const result1 = kgToGm(1000) as number;
   const result2 = kgToGm("1000");
+  console.log(result2, "[1;31mresult2 in 3.1.ts at line 26[0m");
 
   type CustomError = {
     message: string;

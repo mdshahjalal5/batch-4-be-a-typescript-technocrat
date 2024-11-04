@@ -31,6 +31,7 @@ type BackendDeveloper = {
   designation2: "Backend Developer";
 };
 
+const tmiami = "ji";
 type FullstackDeveloper = FrontendDeveloper & BackendDeveloper;
 
 const fullstackDeveloper: FullstackDeveloper = {
