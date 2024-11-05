@@ -1,5 +1,5 @@
 {
-  // instanceof guard
+  //t: instanceof guard
   class Animal {
     name: string;
     species: string;
@@ -32,7 +32,10 @@
     }
   }
 
-  // smart way tge handle korar jnne chaile amra function bebohar krte pari
+  // smart way te handle korar jnne chaile amra function bebohar krte pari
+  const isDog2 = (animal: Animal) => {
+    return animal instanceof Dog;
+  };
   const isDog = (animal: Animal): animal is Dog => {
     return animal instanceof Dog;
   };
