@@ -44,6 +44,8 @@
     return animal instanceof Cat;
   };
 
+  //t: In TypeScript, simply checking if a type guard returns true or false is not enough to access specific methods or properties of derived classes. We need more safety through explicit type checks to ensure that the methods we want to use actually exist on the object. This practice maintains type safety, prevents runtime errors, and clarifies code intent, allowing TypeScript to properly narrow down types and ensure that our code behaves as expected.
+
   const getAnimal = (animal: Animal) => {
     if (isDog(animal)) {
       animal.makeBark();
@@ -56,6 +58,7 @@
 
   const dog = new Dog("Dog Bhai", "dog");
   const cat = new Cat("Cat Bhai", "cat");
+  console.log(isDog2(dog));
 
   getAnimal(cat);
 
