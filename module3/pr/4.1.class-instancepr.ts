@@ -6,6 +6,7 @@ class Student3 {
   age: number;
   roll: number;
   isTalented: boolean;
+  //t:A constructor is a special function in a class. It runs when an instance is created and sets up initial values
   constructor(name: string, age: number, roll: number, isTalented: boolean) {
     this.name = name;
     this.roll = roll;
