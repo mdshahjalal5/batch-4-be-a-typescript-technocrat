@@ -40,14 +40,13 @@
   processInput("Hello"); // The string length is 5
   processInput(10); // The square is 100
   processInput(true); // Unsupported type
-
-  //never
+  //t: never
 
   const throwError = (msg: string): never => {
     throw new Error(msg);
   };
 
   throwError("mushkil se error hogaya");
-
+  let amraa = "hey ";
   //
 }
