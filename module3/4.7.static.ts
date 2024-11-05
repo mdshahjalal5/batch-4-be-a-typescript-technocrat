@@ -1,5 +1,5 @@
-{
-  // static
+//w: 05/11/2024 10:45 PM Tue GMT+6 Sharifpur, Gazipur, Dhaka
+  //w: static
   class Counter {
     static count: number = 0;
 
