@@ -1,10 +1,15 @@
 {
-  // constraints
-
+  //t: constraints
+  //t: When defining a generic type or function, you can specify that the type parameter must extend a certain type or interface. This way, you can enforce that only types that match the constraints can be passed to your generic.
+  //
+  //t: constraints syntax
+  function functionName<T extends SomeType>(param: T): T {
+    // function body
+  }
   const addCourseToStudent = <
-    T extends { id: number; name: string; email: string }
+    T extends { id: number; name: string; email: string },
   >(
-    student: T
+    student: T,
   ) => {
     const course = "Next Level Web Development";
     return {

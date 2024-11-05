@@ -1,11 +1,11 @@
 {
-  // oop - class
+  //t: oop - class
 
   class Animal {
     constructor(
       public name: string,
       public species: string,
-      public sound: string
+      public sound: string,
     ) {}
 
     makeSound() {
@@ -16,7 +16,8 @@
   const dog = new Animal("German Shepard Bhai", "dog", "Ghew Ghew");
   const cat = new Animal("Persian bhai", "cat", "meaw meaw");
 
+  const hen = new Animal("tmi ami ");
   cat.makeSound();
-
+  dog.makeSound();
   //
 }

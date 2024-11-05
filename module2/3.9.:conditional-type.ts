@@ -1,5 +1,5 @@
 {
-  //conditional type
+  //t:conditional type
 
   type a1 = number;
   type b1 = string;
@@ -21,5 +21,6 @@
   type CheckVehicle<T> = T extends keyof Sheikh ? true : false;
 
   type HasPlane = CheckVehicle<"plane">;
+  type HasBus = CheckVehicle<"HasBus">;
   //
 }
