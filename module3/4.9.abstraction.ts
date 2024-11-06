@@ -1,5 +1,5 @@
 {
-  // abstraction  : 1. interface 2. abstract
+  //w:abstraction  : 1. interface 2. abstract
 
   // idea
   interface Vehicle1 {
@@ -33,6 +33,7 @@
   abstract class Car2 {
     abstract startEngine(): void;
     abstract stopEngine(): void;
+
     abstract move(): void;
     test() {
       console.log(`I am just testing`);
@@ -51,7 +52,8 @@
     }
   }
 
-  // const hondaCar = new Car2();
+  const hondaCar = new Car2();
+  console.log(hondaCar, "[1;31mhondaCar in 4.9.ts at line 55[0m");
   // hondaCar.startEngine();
 
   //
