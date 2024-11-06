@@ -11,7 +11,6 @@
       console.log(`I am sleeping for 8 hours per day`);
     }
   }
-
   class Student extends Person {
     //w: Override `getSleep` to provide specific behavior for `Student`
     getSleep() {
