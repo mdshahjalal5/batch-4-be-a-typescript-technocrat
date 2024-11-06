@@ -31,5 +31,6 @@
     appliance.turnOff();
   };
   operateAppliance(ceilingFan);
+
   operateAppliance(deskLamp);
 }

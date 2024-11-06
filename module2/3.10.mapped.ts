@@ -13,7 +13,11 @@
     height: number;
     width: number;
   };
+  type keyOfAreAnumberRename = keyof AreaNumberRename;
 
+  const book: keyOfAreAnumberRename = "height";
+  console.log(`${book.trim()}`);
+  type Width = AreaNumberRename["width"];
   type Height = AreaNumberRename["height"]; // look up type
   // type AreaString = {
   //   height: string;
